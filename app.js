@@ -145,13 +145,13 @@ function paintRes(square1, square2, square3, player) {
   }
 }
 
-function playAgain() {
+/* function playAgain() {
   resultX = "";
   resultO = "";
   plays = 0;
   player = 0;
   button();
-}
+} */
 
 const winner = document.getElementById("who-win");
 const squares = document.querySelectorAll(".squares");
