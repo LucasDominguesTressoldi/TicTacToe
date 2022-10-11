@@ -1,0 +1,97 @@
+body {
+  color: #FFF;
+  background-color: #37383b;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.enabled {
+  background-color: #b09796;
+}
+
+.painted {
+  background-color: #32a852;
+}
+
+#panel {
+  align-items: center;
+  display: flex;
+  margin-right: 2rem;
+}
+
+.btnRestart {
+  background-color: #FFF;
+  border: none;
+  border-radius: 10px;
+  height: 2rem;
+  margin-left: 2rem;
+  width: 5rem;
+}
+
+.btnRestart:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+#who-win {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+#player-x,
+#player-o {
+  padding: 1rem;
+  width: 10%;
+}
+
+.scoreboard {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+#board {
+  background-color: #4f5053;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10rem;
+  height: 70vh;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  width: 60%;
+}
+
+#top-left,
+#top-mid,
+#mid-left,
+#mid-middle {
+  border-right: 4px solid #b09796;
+  border-bottom: 4px solid #b09796;
+  height: 33%;
+  width: 33%;
+}
+
+#top-right,
+#mid-right {
+  border-bottom: 4px solid #b09796;
+  height: 33%;
+  width: 33%;
+}
+
+#bottom-left {
+  border-right: 4px solid #b09796;
+  height: 33%;
+  width: 33%;
+}
+
+#bottom-mid {
+  height: 33%;
+  width: 33%;
+}
+
+#bottom-right {
+  border-left: 4px solid #b09796;
+  height: 33%;
+  width: 33%;
+}
